@@ -38,6 +38,8 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
                         Empty Cart
                     </Button>
                     <Button className={classes.checkOutButton}
+                        component={Link}
+                        to='/checkout'
                         size='large'
                         type='button'
                         variant='contained'
